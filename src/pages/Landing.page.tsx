@@ -18,7 +18,7 @@ const LandingPage = () =>{
             <div className='w-full h-full flex flex-col text-white items-center pt-10'>
                 <img src={RocketImg} className="size-20" alt="" />
                 <h1 className=" mt-5 text-2xl font-bold mb-5">Earn more coins</h1>
-                <div style={{height:"calc(100vh - 223px)"}} className="w-10/12 overflow-y-scroll">
+                <div style={{height:"calc(100vh - 223px)"}} className="w-11/12 overflow-y-scroll">
                     <TaskCard title={"Login Bonus"} bonus={10} img={LoginImg} />
                     <TaskCard title={"Join our Telegram channel"} bonus={100} img={TelegramImg} />
                     <TaskCard title={"Join our Discord"} bonus={100} img={DiscordImg} />
