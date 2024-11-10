@@ -1,5 +1,4 @@
 import React from "react"
-import { useNavigate } from "react-router-dom";
 
 import BlueButton from "./BlueButton";
 
@@ -12,12 +11,8 @@ type Props = {
 
 const TaskCard: React.FC<Props> = ({title, img, bonus, link}) =>{
 
-    const navigate = useNavigate();
-
-
     const redirect = () =>{
-        console.log(link);
-        navigate(link);
+        window.location = link;
     }
 
     return (
