@@ -15,7 +15,7 @@ const TaskCard: React.FC<Props> = ({title, img, bonus}) =>{
                 <img src={img} className="size-8 " alt="" />
             </div>
             <div className=" flex-grow">
-                <h2 className="mb-2">{title}</h2>
+                <h2 className="mb-2" style={{fontSize:"14px"}}>{title}</h2>
                 <p className=" text-card-p text-xs">Earn <span className=" text-white text-sm">{bonus}+</span> coins</p>
             </div>
             <div className="w-20 h-8">
