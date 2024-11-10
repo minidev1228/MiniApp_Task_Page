@@ -18,13 +18,13 @@ const LandingPage = () =>{
                 <img src={RocketImg} className="size-20" alt="" />
                 <h1 className=" mt-5 text-2xl font-bold mb-5">Earn more coins</h1>
                 <div style={{height:"calc(100vh - 223px)"}} className="w-11/12 overflow-y-scroll">
-                    <TaskCard title={"Join our Telegram channel"} bonus={100} img={TelegramImg} link={"https://t.me/hamburg_english"} />
-                    <TaskCard title={"Join our Discord"} bonus={100} img={DiscordImg} link={"https://t.me/hamburg_english"} />
-                    <TaskCard title={"Follow us on facebook"} bonus={100} img={FaceBookImg} link={"https://t.me/hamburg_english"} />
-                    <TaskCard title={"Follow us on instgram"} bonus={100} img={InstagramImg} link={"https://t.me/hamburg_english"} />
-                    <TaskCard title={"Follow us on linkden"} bonus={100} img={LinkdenImg} link={"https://t.me/hamburg_english"} />
-                    <TaskCard title={"Follow us on twiter"} bonus={100} img={XImg} link={"https://t.me/hamburg_english"} />
-                    <TaskCard title={"Subscribe youtube channel"} bonus={100} img={YoutubeImg} link={"https://t.me/hamburg_english"} />
+                    <TaskCard title={"Join our Telegram channel"} bonus={100} img={TelegramImg} link={"https://t.me/devs"} />
+                    <TaskCard title={"Join our Discord"} bonus={100} img={DiscordImg} link={"https://t.me/devs"} />
+                    <TaskCard title={"Follow us on facebook"} bonus={100} img={FaceBookImg} link={"https://t.me/devs"} />
+                    <TaskCard title={"Follow us on instgram"} bonus={100} img={InstagramImg} link={"https://t.me/devs"} />
+                    <TaskCard title={"Follow us on linkden"} bonus={100} img={LinkdenImg} link={"https://t.me/devs"} />
+                    <TaskCard title={"Follow us on twiter"} bonus={100} img={XImg} link={"https://t.me/devs"} />
+                    <TaskCard title={"Subscribe youtube channel"} bonus={100} img={YoutubeImg} link={"https://t.me/devs"} />
                 </div>
             </div>
         </Layout>
