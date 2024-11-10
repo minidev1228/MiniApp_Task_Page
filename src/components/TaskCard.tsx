@@ -11,8 +11,8 @@ type Props = {
 const TaskCard: React.FC<Props> = ({title, img, bonus}) =>{
     return (
         <div className=" w-full h-16 bg-card rounded-md flex items-center p-3 mb-5">
-            <div>
-                <img src={img} className="size-8 mr-5 " alt="" />
+            <div className=" bg-img w-10 h-10 mr-5 p-1 flex justify-center items-center rounded-full overflow-hidden" >
+                <img src={img} className="size-8 " alt="" />
             </div>
             <div className=" flex-grow">
                 <h2 className="mb-2">{title}</h2>

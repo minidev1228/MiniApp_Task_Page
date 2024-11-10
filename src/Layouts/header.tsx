@@ -8,8 +8,6 @@ import xImg from "../assets/Vector.png"
 import discordImg from "../assets/discord.png"
 import menuImg from "../assets/menu.png"
 
-import YellowButton from '../components/YellowButton'
-
 type Props = {
     showMenu: () => void;
 };
@@ -19,9 +17,9 @@ const Header: React.FC<Props> = ({showMenu}) =>{
     const navigate = useNavigate();
     const location = useLocation();
 
-    const goToDownLoadPage = () =>{
-        navigate("/download");
-    }
+    // const goToDownLoadPage = () =>{
+    //     navigate("/download");
+    // }
 
     const downToElement = (ele:string) =>{
         if(location.pathname === "/") return;
@@ -67,7 +65,7 @@ const Header: React.FC<Props> = ({showMenu}) =>{
                     <button className=" mr-2 ml-2"><img src={xImg} className="size-5" alt="" /></button>
                     <button className=" mr-5 ml-2"><img src={discordImg} className="size-5" alt="" /></button>
                     <div className="h-9">
-                    <YellowButton content={"Download"} onClickHandler={goToDownLoadPage}/>
+                    {/* <YellowButton content={"Download"} onClickHandler={goToDownLoadPage}/> */}
                     </div>
                 </div>
                 <button className="md:hidden" onClick={showMenu}>
