@@ -12,7 +12,7 @@ type Props = {
 const TaskCard: React.FC<Props> = ({title, img, bonus, link}) =>{
 
     const redirect = () =>{
-        window.location = link;
+        window.location.href = link;
     }
 
     return (
